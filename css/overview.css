@@ -1,0 +1,181 @@
+.last-tasks .columns-part .col div {
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.last-tasks .columns-part .col :first-child {
+  margin-top: 0rem !important;
+  margin-bottom: 0.7rem !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* vertical bar */
+.vertical-bar,
+.horizontal-bar-byday,
+.horizontal-bar-byunit {
+  position: relative;
+}
+.vertical-bar:before,
+.vertical-bar:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  left: -6px;
+  background-color: #01b5f4;
+}
+.vertical-bar:before {
+  bottom: -1px;
+}
+.vertical-bar:after {
+  top: 0px;
+}
+.vertical-bar .hyphen {
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  background-color: #01b5f4;
+  left: -6px;
+}
+.hyphen.hyphen-1 {
+  bottom: 30px;
+}
+.hyphen.hyphen-2 {
+  bottom: 171px;
+}
+.hyphen.hyphen-1:before,
+.hyphen.hyphen-1:after,
+.hyphen.hyphen-2:before,
+.hyphen.hyphen-2:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  left: 0px;
+  background-color: #01b5f4;
+}
+.hyphen.hyphen-1:before {
+  bottom: 29px;
+}
+.hyphen.hyphen-1:after {
+  bottom: 57px;
+}
+.hyphen.hyphen-2:before {
+  top: 57px;
+}
+.hyphen.hyphen-2:after {
+  top: 29px;
+}
+.vertical-bar div {
+  position: absolute;
+  left: -30px;
+}
+.div-0 {
+  bottom: -10px;
+  left: -22px !important;
+}
+.div-1 {
+  bottom: 20px;
+}
+.div-2 {
+  bottom: 49px;
+}
+.div-3 {
+  bottom: 77px;
+}
+.div-4 {
+  bottom: 105px;
+}
+.div-5 {
+  bottom: 133px;
+}
+.div-6 {
+  bottom: 161px;
+}
+.div-7 {
+  bottom: 189px;
+}
+/* horizontal bar by day*/
+
+.sat,
+.sun,
+.mon,
+.tue,
+.wed,
+.thu,
+.fri {
+  position: absolute;
+  bottom: 0.9px;
+  width: 20px;
+}
+
+.sat {
+  left: 40px;
+}
+.sun {
+  left: 90px;
+}
+.mon {
+  left: 140px;
+}
+.tue {
+  left: 190px;
+}
+.wed {
+  left: 240px;
+}
+.thu {
+  left: 290px;
+}
+.fri {
+  left: 340px;
+}
+
+.columns-data {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-45%) rotate(-90deg);
+  color: #2c498f;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+/* horizontal bar for by unit*/
+
+.surgery,
+.emergency,
+.pharmacy,
+.Orthopedic,
+.Xray {
+  position: absolute;
+  bottom: 0.9px;
+  width: 30px;
+}
+.surgery {
+  left: 45px;
+  height: 70px;
+}
+.emergency {
+  left: 115px;
+  height: 70px;
+}
+.pharmacy {
+  left: 185px;
+}
+.Orthopedic {
+  left: 255px;
+  height: 70px;
+}
+.Xray {
+  left: 325px;
+  height: 70px;
+}

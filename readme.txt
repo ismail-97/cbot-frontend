@@ -1,0 +1,1 @@
+To open the website, click on the index.html.

@@ -1,0 +1,81 @@
+:root {
+  --btnBgColor: #01b5f4;
+  --lightBgColor: #1b283a;
+  --darkBgColor: #182033;
+  --mainRowBgColor: #ececec;
+  --otherRowBgColor: #fefefe;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bg-mainColor {
+  background-color: #15254b;
+}
+.bg-mainColor2 {
+  background-color: #01b5f4;
+}
+.border-mainColor {
+  border-color: #15254b !important;
+}
+.text-mainColor2 {
+  color: #15254b;
+}
+.text-mainColor {
+  color: #005675;
+}
+.text-secColor {
+  color: #007fad !important;
+}
+.nav-link {
+  color: white;
+}
+.btn-mainColor {
+  background-color: #ddd;
+  color: #15254b;
+  border-color: #15254b;
+}
+
+.btn-mainColor:hover {
+  color: #fff;
+
+  background-color: #15254b;
+}
+
+.signout-btn {
+  margin: 0;
+}
+
+.rounded-7 {
+  border-radius: 0.7rem !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.fas.fa-caret-left,
+.fas.fa-caret-right {
+  font-size: 30px;
+  color: #15254b;
+}
+.display-7 {
+  font-size: calc(0.5rem + 0.9vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  align-items: flex-start;
+}
+
+.data div p,
+.carousel-item.active p {
+  margin-bottom: 1.5rem !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

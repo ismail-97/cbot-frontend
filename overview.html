@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/overview.css" />
+
+    <title>Overview</title>
+  </head>
+  <body class="" style="background-color: #eee">
+    <nav class="navbar navbar-expand bg-mainColor mb-5">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="assets/LOGO-WHITE.png" width="120px" class="" alt=""
+        /></a>
+        <!-- links -->
+        <div id="mainNav" class="navbar-nav">
+          <ul
+            class="navbar-nav align-items-center flex-row h5 gap-1"
+            id="navLinks"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hospital Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cbotrobots.com/" target="_blank"
+                >C-Bot</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://robolabs.net/" target="_blank"
+                >Robolab</a
+              >
+            </li>
+            <a
+              class="signout-btn nav-link btn btn-mainColor h5"
+              href="index.html"
+              target="_blank"
+              >Sign Out</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center">
+      <p class="h1 fw-bold text-mainColor mb-5">CBOTs Overview</p>
+      <div class="row justify-content-center gap-3">
+        <!-- Last Performed Tasks -->
+        <div class="row justify-content-center last-tasks">
+          <div
+            class="
+              bg-light
+              col-12 col-lg-8 col-xl-7 col-xxl-6
+              border border-mainColor border-2
+              rounded-7
+            "
+          >
+            <p class="px-3 h5 mt-3 mb-4 text-start text-secColor">
+              Last Performed Tasks
+            </p>
+            <div class="row row-cols-4 columns-part mb-3">
+              <!-- Unit column -->
+              <div class="col">
+                <div class="text-danger h5 fw-bold">Unit</div>
+                <hr class="w-50 m-auto my-3" />
+              </div>
+              <!-- Floor column -->
+              <div class="col">
+                <div class="text-danger h5 fw-bold">Floor</div>
+                <hr class="w-50 m-auto my-3" />
+              </div>
+              <!-- Duration column -->
+              <div class="col">
+                <div class="text-danger h5 fw-bold">Duration</div>
+                <hr class="w-50 m-auto my-3" />
+              </div>
+              <!-- Time column -->
+              <div class="col gx-0">
+                <div class="text-danger h5 fw-bold">Time</div>
+                <hr class="w-50 m-auto my-3" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- By day & Unit -->
+        <hr class="mt-4" />
+        <p class="h1 fw-bold text-mainColor mb-4">Last Week Work</p>
+
+        <div class="row justify-content-center gap-3">
+          <!-- By day -->
+          <div
+            class="col-5 border border-mainColor border-2 rounded-7 bg-light"
+          >
+            <p class="px-3 h5 mt-3 mb-4 text-start text-secColor">
+              Last 7 Days Performed Tasks By day
+            </p>
+            <div class="data-chart mb-4">
+              <div class="bars mx-auto" style="width: fit-content">
+                <div
+                  class="vertical-bar bg-mainColor2"
+                  style="height: 210px; width: 1px"
+                >
+                  <div class="hyphen hyphen-1"></div>
+                  <div class="hyphen hyphen-2"></div>
+
+                  <div class="div-0">0</div>
+                  <div class="div-1">10</div>
+                  <div class="div-2">20</div>
+                  <div class="div-3">30</div>
+                  <div class="div-4">40</div>
+                  <div class="div-5">50</div>
+                  <div class="div-6">60</div>
+                  <div class="div-7">70</div>
+                </div>
+                <div
+                  class="horizontal-bar-byday bg-mainColor2"
+                  style="height: 1px; width: 400px"
+                >
+                  <div class="sat bg-primary"></div>
+                  <div class="sun bg-danger"></div>
+                  <div class="mon bg-warning"></div>
+                  <div class="tue bg-success"></div>
+                  <div class="wed bg-info"></div>
+                  <div class="thu bg-dark"></div>
+                  <div class="fri bg-secondary"></div>
+                </div>
+                <div class="columns-info d-flex justify-content-evenly mt-2">
+                  <div class="sat-box">
+                    <div class="box bg-primary"></div>
+                    <span>Sat</span>
+                  </div>
+                  <div class="sun-box">
+                    <div class="box bg-danger"></div>
+                    <span>Sun</span>
+                  </div>
+                  <div class="mon-box">
+                    <div class="box bg-warning"></div>
+                    <span>Mon</span>
+                  </div>
+                  <div class="tue-box">
+                    <div class="box bg-success"></div>
+                    <span>Tue</span>
+                  </div>
+                  <div class="wed-box">
+                    <div class="box bg-info"></div>
+                    <span>Wed</span>
+                  </div>
+                  <div class="thu-box">
+                    <div class="box bg-dark"></div>
+                    <span>Thu</span>
+                  </div>
+                  <div class="fri-box">
+                    <div class="box bg-secondary"></div>
+                    <span>Fri</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- By Unit -->
+          <div
+            class="col-5 border border-mainColor border-2 rounded-7 bg-light"
+          >
+            <p class="px-3 h5 mt-3 mb-4 text-start text-secColor">
+              Last 7 Days Performed Tasks By Unit
+            </p>
+            <div class="data-chart mb-4">
+              <div class="bars mx-auto" style="width: fit-content">
+                <div
+                  class="vertical-bar bg-mainColor2"
+                  style="height: 210px; width: 1px"
+                >
+                  <div class="hyphen hyphen-1"></div>
+                  <div class="hyphen hyphen-2"></div>
+
+                  <div class="div-0">0</div>
+                  <div class="div-1">10</div>
+                  <div class="div-2">20</div>
+                  <div class="div-3">30</div>
+                  <div class="div-4">40</div>
+                  <div class="div-5">50</div>
+                  <div class="div-6">60</div>
+                  <div class="div-7">70</div>
+                </div>
+                <div
+                  class="horizontal-bar-byunit bg-mainColor2"
+                  style="height: 1px; width: 400px"
+                >
+                  <div class="surgery bg-primary"></div>
+                  <div class="emergency bg-danger"></div>
+                  <div class="pharmacy bg-warning"></div>
+                  <div class="Orthopedic bg-success"></div>
+                  <div class="Xray bg-info"></div>
+                </div>
+                <div
+                  class="columns-info d-flex justify-content-between w-100 mt-2"
+                >
+                  <div class="surgery-box">
+                    <div class="box bg-primary"></div>
+                    <span>Surgery</span>
+                  </div>
+                  <div class="emergency-box">
+                    <div class="box bg-danger"></div>
+                    <span>Emerge..</span>
+                  </div>
+                  <div class="pharmacy-box">
+                    <div class="box bg-warning"></div>
+                    <span>Pharma..</span>
+                  </div>
+                  <div class="Orthopedic-box">
+                    <div class="box bg-success"></div>
+                    <span>ortho..</span>
+                  </div>
+                  <div class="Xray-box">
+                    <div class="box bg-info"></div>
+                    <span>X-ray</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-5"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/js/overview.js"></script>
+    <script type="module" src="/js/database.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/2d79dd3573.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
